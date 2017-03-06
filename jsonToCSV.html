@@ -1,0 +1,21 @@
+    <html>
+    <head>
+        <title>Covnert JSON to CSV</title>
+        <script type="text/javascript" src="jsonToCSV.js"></script>
+    </head>
+    <body>
+        <h1>JSON</h1>
+        <div style="padding: 2px;">            
+            <textarea id="jsonInput" rows="10" cols="100" placeholder="Enter the JSON here"></textarea>
+        </div>
+        <br>
+        <button type="button" onclick="runMe()">Convert</button>
+        <hr>
+        <h1>CSV Output</h1>
+        <div id="result" style="border:1px solid #000; padding: 5px;">
+            <div id="csvResult"></div>        
+        </div>
+        <br>
+        <button type="button" onclick="downloadCSV()">Download</button>
+    </body>
+    </html>
